@@ -2,8 +2,8 @@
 Technical Test for Go Bootcamp at Wizeline
 
 ## Dependencies:
-Gin: go get -u github.com/gin-gonic/gin
-Testify: go get github.com/stretchr/testify
+* Gin: go get -u github.com/gin-gonic/gin
+* Testify: go get github.com/stretchr/testify
 
 ## How to run:
 `go run main.go`
