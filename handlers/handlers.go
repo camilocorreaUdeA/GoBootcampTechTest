@@ -56,7 +56,7 @@ func RequestWrapper(f func(c *gin.Context) (interface{}, error)) gin.HandlerFunc
 	return func(c *gin.Context) {
 		resp, err := f(c)
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"error": fmt.Sprintf("Internal Error %s", err.Error())})
+			c.JSON(http.StatusInternalServerError, gin.H{"error": fmt.Sprintf("Internal Error: %s", err.Error())})
 			return
 		}
 		c.JSON(http.StatusOK, gin.H{"status": "OK", "response": resp})
