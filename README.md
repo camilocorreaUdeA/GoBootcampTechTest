@@ -1,6 +1,9 @@
 # GoBootcampTechTest
 Technical Test for Go Bootcamp at Wizeline
 
+## Go version:
+1.16
+
 ## Dependencies:
 * Gin: go get -u github.com/gin-gonic/gin
 * Testify: go get github.com/stretchr/testify
